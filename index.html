@@ -4,11 +4,20 @@
     <head>
         <title>Regine Glass</title>
         <link rel="stylesheet" href="style.css">
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>       
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    </head>
         <style>
             div.full {
                 background-size:cover;
+                margin-bottom: 50px;
+            }
+
+            div.mid-mid {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
             }
 
                 @media only screen and (min-width: 576px) {
@@ -25,7 +34,7 @@
                     }
                 }
         </style>
-    <body style="padding-top: 0;">
+    <body>
 
         <nav class="navbar fixed-bottom navbar-expand-lg navbar-light bg-light justify-content-center">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbartoggler" aria-controls="navbartoggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,10 +52,13 @@
             </div>
         </nav>
         <div class="full">   
-            <center>
+            <div class="mid-mid">
                 <h1 style="margin-top: 20vh; margin-bottom:30px;font-size: 120px;">Regine Glass</h1>
-                <p style="color: #70757a; margin:20px;"">Journalism - Social Media - Translation</p>
-            </center>
+                <center>
+                    <p style="color: #70757a; margin:20px;">Journalism - Social Media - Translation</p>
+                </center>
+            </div>
+
         </div>
 
 
@@ -64,32 +76,35 @@
         </div>
         <div class="container">
             <div class="row">
+
+                <div class="col-sm-6 full" style="background-color: rgb(182, 137, 87);">
+                    <h2 id="services" style="color: whitesmoke;">My Services</h2>
+                </div>
+
+                <div class="col-sm-6 full"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu massa a turpis ullamcorper fermentum. Nulla lacus mauris, ornare sit amet turpis id, fermentum iaculis arcu. Nulla tincidunt arcu sed urna euismod feugiat. Nulla pharetra metus et nibh commodo vehicula. In pulvinar sodales diam gravida fermentum. Fusce ac eleifend massa, ac cursus velit. Etiam elementum leo viverra congue fermentum. Sed tempus enim in lobortis rutrum. </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 full" style="background-color: rgb(175, 108, 108);">
+                    <h2 id="cv" style="color: whitesmoke;">CV</h2>
+                </div>
                 <div class="col-sm-6 full"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu massa a turpis ullamcorper fermentum. Nulla lacus mauris, ornare sit amet turpis id, fermentum iaculis arcu. Nulla tincidunt arcu sed urna euismod feugiat. Nulla pharetra metus et nibh commodo vehicula. In pulvinar sodales diam gravida fermentum. Fusce ac eleifend massa, ac cursus velit. Etiam elementum leo viverra congue fermentum. Sed tempus enim in lobortis rutrum. </p>
                 </div>
 
-                <div class="col-6 full" style="background-color: rgb(182, 137, 87);">
-                    <h2 id="services" style="color: whitesmoke;">My Services</h2>
-                </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-6 full"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu massa a turpis ullamcorper fermentum. Nulla lacus mauris, ornare sit amet turpis id, fermentum iaculis arcu. Nulla tincidunt arcu sed urna euismod feugiat. Nulla pharetra metus et nibh commodo vehicula. In pulvinar sodales diam gravida fermentum. Fusce ac eleifend massa, ac cursus velit. Etiam elementum leo viverra congue fermentum. Sed tempus enim in lobortis rutrum. </p>
-                </div>
 
-                <div class="col-6 full" style="background-color: rgb(175, 108, 108);">
-                    <h2 id="cv" style="color: whitesmoke;">CV</h2>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-6 full"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu massa a turpis ullamcorper fermentum. Nulla lacus mauris, ornare sit amet turpis id, fermentum iaculis arcu. Nulla tincidunt arcu sed urna euismod feugiat. Nulla pharetra metus et nibh commodo vehicula. In pulvinar sodales diam gravida fermentum. Fusce ac eleifend massa, ac cursus velit. Etiam elementum leo viverra congue fermentum. Sed tempus enim in lobortis rutrum. </p>
-                </div>
-
-                <div class="col-6 full" style="background-color: rgb(175, 108, 108);">
+                <div class="col-sm-6 full" style="background-color: rgb(175, 108, 108);">
                     <h2 id="contact" style="color: whitesmoke;">Contact Me</h2>
                 </div>
+
+                <div class="col-sm-6 full"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu massa a turpis ullamcorper fermentum. Nulla lacus mauris, ornare sit amet turpis id, fermentum iaculis arcu. Nulla tincidunt arcu sed urna euismod feugiat. Nulla pharetra metus et nibh commodo vehicula. In pulvinar sodales diam gravida fermentum. Fusce ac eleifend massa, ac cursus velit. Etiam elementum leo viverra congue fermentum. Sed tempus enim in lobortis rutrum. </p>
+                </div>
+
             </div>
         </div>
     </body>
