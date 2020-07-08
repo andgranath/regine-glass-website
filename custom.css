@@ -26,6 +26,12 @@ div.mid-mid {
     text-overflow: ellipsis; 
 }
 
+div.mid-mid h1 {
+    margin-top: 0; 
+    margin-bottom:30px;
+    font-size: 120px; 
+    color:seashell;
+}
 .darken {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.5),
@@ -56,4 +62,10 @@ p.left-border {
             background-image: none !important;
             
         }
+
+        div.mid-mid > h1 {
+            margin-top: 0; 
+            margin-bottom:30px;
+            font-size: 100px; 
+            color:seashell;
     }
