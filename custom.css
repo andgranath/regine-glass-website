@@ -21,6 +21,9 @@ div.mid-mid {
     left: 50%;
     top: 75%;
     transform: translate(-50%, -50%);
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
 }
 
 .darken {
