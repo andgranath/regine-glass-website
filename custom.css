@@ -1,3 +1,6 @@
+body {
+    padding-bottom: 65px;
+}
 div.full {
     background-size:cover;
 }
@@ -6,9 +9,10 @@ div.full {
 .start-div {
     position: relative;
     top: -22px; 
-    height:100vh;
+    height:101vh;
     background-size:cover;
     background-position: center center;
+    
 }
 .start-div > img {
     display:block;
@@ -29,15 +33,34 @@ div.mid-mid {
 div.mid-mid h1 {
     margin-top: 0; 
     margin-bottom:30px;
+    padding-bottom: 0;
+    line-height: 80%;
     font-size: 120px; 
     color:seashell;
 }
+
+.centered-text-div {
+    text-align: center;
+    margin: 30px;
+}
+
+.light-text {
+    color: seashell;
+}
+
 .darken {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
       ),
     url('images/header.jpg');
+}
+
+.darken-text-div {
+    background-image: linear-gradient(
+        rgba(25, 36, 49, 0.5),
+        rgba(25, 36, 49, 0.5)
+    );
 }
 div > img {
     width: 100%;
@@ -50,14 +73,40 @@ p.left-border {
     padding: 10px;
 }
 
+.bg-cover {
+    background-size: cover;
+}
+
+
     @media only screen and (min-width: 768px) {
         
+        .row {
+            margin-bottom: 80px;
+        }
+
+        .start-div {
+            margin-bottom: 50px;
+        }
+
         div.full{
-            height: 90vh !important;
+            height: 101vh !important;
+        }
+
+        div.text-div {
+            margin-left: 60 px !important;
+        }
+
+        #about {
+            color: whitesmoke;
         }
     }
 
     @media only screen and (max-width:576px) {
+        
+        .row {
+            margin-bottom: 20px;
+        }
+        
         div.headline-div {
             background-image: none !important;
             
@@ -68,4 +117,7 @@ p.left-border {
             margin-bottom:30px;
             font-size: 100px; 
             color:seashell;
-    }
+        }
+        #about {
+            color: Black;
+        }
