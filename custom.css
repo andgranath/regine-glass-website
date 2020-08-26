@@ -5,6 +5,11 @@ div.full {
     background-size:cover;
 }
 
+div.contain {
+    background-size: 400px ;
+    background-repeat: no-repeat;
+}
+
 
 .start-div {
     position: relative;
@@ -79,6 +84,11 @@ p.left-border {
 
 
     @media only screen and (min-width: 768px) {
+
+        img#profile {
+            display: none;
+        }
+
         
         .row {
             margin-bottom: 80px;
@@ -99,10 +109,23 @@ p.left-border {
         #about {
             color: whitesmoke;
         }
+
+        .bg-cover {
+            background-position-y: 70% ;
+        }
     }
 
     @media only screen and (max-width:576px) {
-        
+        img#profile {
+            display: inline-block;
+            height: 300px;
+        }
+
+        .floated-image {
+            float: left;
+            margin-right: 20px;
+
+        }
         .row {
             margin-bottom: 20px;
         }
@@ -110,6 +133,14 @@ p.left-border {
         div.headline-div {
             background-image: none !important;
             
+        }
+
+        div.text-div {
+            margin-left: 0px !important;
+        }
+
+        .ml-5 {
+            margin-left: 10px !important;
         }
 
         div.mid-mid > h1 {
