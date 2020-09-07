@@ -1,10 +1,36 @@
+@font-face {
+    font-family: bebas-neue;
+    src: url(fonts/Bebas_Neue/BebasNeue-Regular.tff)
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto/Roboto-Light.ttf);
+}
+
 body {
     padding-bottom: 65px;
+    background-color: whitesmoke;
+}
+
+body h2 {
+    font-family: bebas-neue;
+}
+
+body p {
+    font-family: roboto;
 }
 div.full {
     background-size:cover;
 }
 
+#body-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    padding-top: 40px;
+}
 div.contain {
     background-size: 400px ;
     background-repeat: no-repeat;
@@ -17,7 +43,10 @@ div.contain {
     height:101vh;
     background-size:cover;
     background-position: center center;
+    margin-bottom: 0!important;
     
+}
+
 }
 .start-div > img {
     display:block;
@@ -40,8 +69,9 @@ div.mid-mid h1 {
     margin-bottom:30px;
     padding-bottom: 0;
     line-height: 80%;
-    font-size: 120px; 
+    font-size: 100px; 
     color:seashell;
+    font-family: bebas-neue;
 }
 
 .centered-text-div {
@@ -59,6 +89,7 @@ div.mid-mid h1 {
         rgba(0, 0, 0, 0.5)
       ),
     url('images/header.jpg');
+    margin-bottom: 0;
 }
 
 .darken-text-div {
@@ -80,6 +111,10 @@ p.left-border {
 
 .bg-cover {
     background-size: cover;
+}
+
+#cv h1 {
+    font-family: bebas-neue;
 }
 
 
@@ -115,10 +150,10 @@ p.left-border {
         }
     }
 
-    @media only screen and (max-width:576px) {
+    @media only screen and (max-width: 767px) {
         img#profile {
             display: inline-block;
-            height: 300px;
+            height: 250;
         }
 
         .floated-image {
@@ -151,4 +186,10 @@ p.left-border {
         }
         #about {
             color: Black;
+        }
+
+        .card {
+            margin: 0 auto;
+            float: none;
+            margin-bottom: 20px;
         }
