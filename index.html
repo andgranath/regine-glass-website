@@ -43,9 +43,9 @@
         
         <h2 style="text-align: center; margin-bottom: 20px;" id="services">Meine Dienstleistungen</h2>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row justify-content-center">
                 
-                <div class="col-sm-1 col-md-3 col-ml-3">
+                <div class="col-md-6 col-xl-3 ">
                     <div class="card" style="width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">Storytelling</h5>
@@ -53,15 +53,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-1 col-md-3 col-ml-4">
+                <div class="col-md-6 col-xl-3">
                     <div class="card" style="width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">SEO-Texte</h5>
-                            <p class="card-text">Ich kenne die Worte, bei denen Google deine Webseite einfacher findet.</p>
+                            <p class="card-text">Ich kenne die Wörter, die Google das Auffinden Ihrer Website erleichtern.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-1 col-md-3 col-ml-4">
+                <div class="col-md-6 col-xl-3">
                     <div class="card" style="width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">Texte ũber Stadt und Land</h5>
@@ -70,7 +70,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-1 col-md-3 col-ml-4">
+                <div class="col-md-6 col-xl-3">
                     <div class="card" style="width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">Übersetzungen</h5>
@@ -81,8 +81,8 @@
             </div>
         </div>
         <div class="container-fluid">
-            <div class="row">
-            <div class="col-md-1 col-ml-1"></div> 
+            <div class="row justify-content-center">
+           
             <div class="col-md-5 full headline-div light-text rounded-right rounded-left" id="about" style="background-image:url('images/regine-about.JPG');">
                     <h2 style="margin: 20px;">Wer bin ich?</h2>
                 </div>
@@ -168,7 +168,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-5" id="contact">
+                <div class="col-md-4" id="contact">
                     <h2 style="text-align: right; margin-right: 20px;">Kontakt</h2>
                 </div>
 
@@ -176,18 +176,18 @@
                     <br> Du bist dran. Erster Schritt: Eine Nachricht an mich senden.</p>
                     <form action="https://formspree.io/mvowernb" method="POST">
                         <label>
-                            Deine Emailadresse:
-                            <br>
+                            <input class="form-control mb-4" type="text" name="_name" placeholder="Name"> 
+                        </label>
+                        <label>
                             <input class="form-control mb-4" type="text" name="_replyto" placeholder="Deine Emailadresse">
                         </label>
                         <br>
                         <label>
-                            Deine Nachricht:
-                            <br>
-                            <textarea class="form-control rounded-0" name="message" placeholder="Deine Nachricht"></textarea>
+                            
+                            <textarea class="form-control rounded-0" name="message" placeholder="Deine Nachricht" rows="10" style="width: 400px;"></textarea>
                         </label> 
                         <br>
-                        <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Senden</button>
+                        <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit" style="width: 400px;">Senden</button>
                     </form>
                 </div>
 

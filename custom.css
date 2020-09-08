@@ -54,6 +54,10 @@ div.contain {
     height: auto;
 }
 
+.headline-div {
+    background-position: center;
+}
+
 div.mid-mid {
     position: relative;
     left: 50%;
@@ -89,6 +93,7 @@ div.mid-mid h1 {
         rgba(0, 0, 0, 0.5)
       ),
     url('images/header.jpg');
+    background-position: center;
     margin-bottom: 0;
 }
 
@@ -115,6 +120,12 @@ p.left-border {
 
 #cv h1 {
     font-family: bebas-neue;
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 20px;
 }
 
 
@@ -188,8 +199,8 @@ p.left-border {
             color: Black;
         }
 
-        .card {
-            margin: 0 auto;
-            float: none;
-            margin-bottom: 20px;
-        }
+@media only screen and (max-width: 500px){
+    #contact > h2 {
+        text-align: left !important;
+    }
+}
