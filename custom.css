@@ -144,6 +144,9 @@ p.left-border {
     text-align: center;
 }
 
+#contact-form {
+    max-width: 95vw;
+}
     @media only screen and (min-width: 768px) {
 
         img#profile {
@@ -215,8 +218,6 @@ p.left-border {
             color: Black;
         }
 
-@media only screen and (max-width: 500px){
-    #contact > h2 {
+        #contact > h2 {
         text-align: left !important;
     }
-}

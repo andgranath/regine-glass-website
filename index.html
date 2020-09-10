@@ -152,25 +152,25 @@
         </div>
         <div class="container">    
             <div class="row justify-content-center">
-                <div class="col-md-4 col-sm-6 logotype-div">
+                <div class="col-lg-4 col-md-6 col-sm-12  logotype-div">
 
                     <a href="https://www.volksstimme.de"><img class="logos" src="images/800px-Volksstimme_Logo.svg.png" alt="Volksstimme Logo"></a>
                                         
 
                 </div>
 
-                <div class="col-md-4 cold-sm-6 logotype-div">
+                <div class="col-lg-4 col-md-6 col-sm-12 logotype-div">
                     <a href="https://www.gp.se/"><img class="logos" src="images/GP_logotyp_transparent.png" alt="Göteborgs-Posten Logo"></a>
                 </div>
 
-                <div class="col-md-4 col-sm-6 logotype-div">
+                <div class="col-lg-4 col-md-6 col-sm-12  logotype-div">
                     <a href="https://digitale-provinz.de/"><img class="logos" src="images/dp-logo.png" alt="Digitale Provinz Logo"></a>
                     <p style="visibility: hidden;"> test</p>
                 </div>
             </div>
         </div>
         
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
 
                 <div class="col-md-4" id="contact">
@@ -179,7 +179,7 @@
 
                 <div class="col-md-6"><p>Lass uns zusammen Stadt-Land-Text spielen!
                     <br> Du bist dran. Erster Schritt: Eine Nachricht an mich senden.</p>
-                    <form action="https://formspree.io/mvowernb" method="POST">
+                    <form id="contact-form" action="https://formspree.io/mvowernb" method="POST">
                         <label>
                             <input class="form-control mb-4" type="text" name="_name" placeholder="Name"> 
                         </label>
@@ -189,10 +189,10 @@
                         <br>
                         <label>
                             
-                            <textarea class="form-control rounded-0" name="message" placeholder="Deine Nachricht" rows="10" style="width: 400px;"></textarea>
+                            <textarea class="form-control rounded-0" name="message" placeholder="Deine Nachricht" rows="10" style="width: 400px; max-width: 80vw;"></textarea>
                         </label> 
                         <br>
-                        <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit" style="width: 400px;">Senden</button>
+                        <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit" style="width: 400px; max-width: 80vw;">Senden</button>
                     </form>
                 </div>
 
