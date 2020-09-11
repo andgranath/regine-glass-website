@@ -257,4 +257,10 @@ p.left-border {
 
     }
 
+    @media only screen and (max-width: 280px) {
+        div.mid-mid h1 {
+            font-size: 70px;
+        }
+    }
+
 
