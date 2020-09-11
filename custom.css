@@ -81,6 +81,7 @@ div.mid-mid h1 {
 .centered-text-div {
     text-align: center;
     margin: 30px;
+    margin-bottom: 0px;
 }
 
 .light-text {
