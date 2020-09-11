@@ -11,6 +11,7 @@
 body {
     padding-bottom: 65px;
     background-color: whitesmoke;
+
 }
 
 body h2 {
@@ -104,11 +105,7 @@ div.mid-mid h1 {
         rgba(25, 36, 49, 0.5)
     );
 }
-div > img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
+
 
 div {
     overflow:auto;
@@ -128,10 +125,11 @@ p.left-border {
 }
 
 .card {
-    margin: 0 auto;
+    margin: 10 auto;
     float: none;
     margin-bottom: 20px;
 }
+
 
 .logos {
     display:inline;
@@ -148,6 +146,7 @@ p.left-border {
 #contact-form {
     max-width: 95vw;
 }
+
     @media only screen and (min-width: 768px) {
 
         img#profile {
@@ -185,12 +184,19 @@ p.left-border {
         img#profile {
             display: inline-block;
             height: 250;
+
         }
 
         .floated-image {
             float: left;
+            margin-left:0px;
             margin-right: 20px;
+            padding: 0;
 
+        }
+
+        .left {
+            float: left;
         }
         .row {
             margin-bottom: 20px;
@@ -204,6 +210,7 @@ p.left-border {
         div.text-div {
             margin-left: 0px !important;
         }
+
 
         .ml-5 {
             margin-left: 10px !important;
@@ -222,3 +229,11 @@ p.left-border {
         #contact > h2 {
         text-align: left !important;
     }
+
+
+ /*   TRASH
+    div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}*/
