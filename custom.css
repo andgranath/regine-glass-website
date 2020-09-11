@@ -143,6 +143,7 @@ p.left-border {
 
     margin-bottom: 30px;
     text-align: center;
+    max-width: 95vw;
 }
 
 #contact-form {
@@ -238,10 +239,11 @@ p.left-border {
         }
     }
 
+    @media only screen and (max-width: 320px) {
+        .logos {
 
- /*   TRASH
-    div > img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}*/
+            height: 50px;
+}
+    }
+
+
