@@ -77,6 +77,7 @@ div.mid-mid h1 {
     font-size: 100px; 
     color:seashell;
     font-family: bebas-neue;
+    max-width: 95vw;
 }
 
 .centered-text-div {
@@ -128,6 +129,7 @@ p.left-border {
     margin: 10 auto;
     float: none;
     margin-bottom: 20px;
+    height: 190px;
 }
 
 
@@ -216,7 +218,7 @@ p.left-border {
             margin-left: 10px !important;
         }
 
-        div.mid-mid > h1 {
+        div.mid-mid h1 {
             margin-top: 0; 
             margin-bottom:30px;
             font-size: 100px; 
@@ -228,6 +230,12 @@ p.left-border {
 
         #contact > h2 {
         text-align: left !important;
+    }
+
+    @media only screen and (max-width:360px) {
+        div.mid-mid  h1 {
+            font-size: 85px;
+        }
     }
 
 
