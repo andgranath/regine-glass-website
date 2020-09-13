@@ -7,7 +7,9 @@
     font-family: roboto;
     src: url(fonts/Roboto/Roboto-Light.ttf);
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     padding-bottom: 65px;
     background-color: whitesmoke;
@@ -129,7 +131,7 @@ p.left-border {
     margin: 10 auto;
     float: none;
     margin-bottom: 20px;
-    height: 190px;
+    height: 170px;
 }
 
 
